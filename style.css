@@ -1,0 +1,21 @@
+body{
+    background-image:url("sky.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+h2{
+    color: dodgerblue;
+}
+h1{
+    color:limegreen;
+}
+canvas{
+    border:5px dashed dodgerblue;
+    animation-name:noob;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes noob{
+    from{box-shadow:1px 1px 38px red;}
+    to{box-shadow:1px 1px 38px purple;}
+}
